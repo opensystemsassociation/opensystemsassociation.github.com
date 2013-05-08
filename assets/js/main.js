@@ -10,12 +10,20 @@ $(document).ready(function() {
         currentZIndex = 6;
 
     if ($images.length > 0) {
+
+        if($currentImage.length == 0){
+            // If not visible image then show random image.
+            $currentImage = $($images.get(Math.round(Math.random()*($images.length-1))));
+            $currentImage.removeClass("hidden").addClass("visible")
+        }
+
         // Ensure current image is in the right place to start.
         $currentImage.css('z-index', currentZIndex); 
+
         // Start interval.
         setInterval(function(){
+
             var nextIndex = ($currentImage.index() >= $images.length) ? 0 : $currentImage.index();
-            console.log($currentImage.index(), nextIndex);
             // Get next image.
             $nextImage = $($images.get(nextIndex));
             // Show image behind current one before fading out current.
