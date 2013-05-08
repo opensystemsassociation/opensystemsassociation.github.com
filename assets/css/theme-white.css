@@ -1,0 +1,59 @@
+body {
+  color: #eee9e9;
+}
+
+a {
+  color: #aca1a1;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+h2, h3, h4 {
+  font-family: 'liberation_mono';
+}
+
+.wrapper .content {
+  border-bottom-color: #858585;
+}
+
+.wrapper .current-project {
+  border-bottom-color: #858585;
+}
+
+.event-news {
+  border-top-color: #858585;
+}
+
+.members a {
+  color: white;
+}
+
+.fullbg-cover {
+  background: black;
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  /* IE 5-7 */
+  filter: alpha(opacity=70);
+  /* Netscape */
+  -moz-opacity: 0.7;
+  /* Safari 1.x */
+  -khtml-opacity: 0.7;
+  /* Good browsers */
+  opacity: 0.7;
+}
+
+.nav-global li a {
+  color: #858585;
+}
+
+.nav-global li a:hover,
+.nav-global li.active a {
+  color: #eee9e9;
+}
+
+.osa a:hover, .home .osa a {
+  color: #eee9e9;
+}

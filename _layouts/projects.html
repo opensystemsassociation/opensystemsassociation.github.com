@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<div class="content grid_17">
+    <h2>Recent/Current Projects</h2>
+    <p>Current projects are examples of work by the OSA that are in progress or recently completed. Some of the work may be part of a series or ongoing work with indeterminate length.</p>
+    <div class='current-projects'>
+        {% for post in site.categories.['project'] %}
+        {% if post.tags contains "current" %}
+        <article class='current-project'>
+            <h3>{{ post.title }}</h3>
+            <div class="date">{{ post.date | date: "%B %Y" }}</div>
+            {% if post.vimeo_id and post.vimeo_id != "" %}
+            <iframe src="http://player.vimeo.com/video/{{ post.vimeo_id }}"  frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> 
+            {% endif %}
+            <p>{{ post.content | strip_html | truncatewords:50 }}</p>
+            &raquo; <a href="{{ post.url }}">Read more</a>
+        </article>
+        {% endif %}
+        {% endfor %}
+    </div>
+    <h2>Projects by OSA members</h2>
+    <p>Members of the Open Systems Association have worked on a wide variety of projects in the past. To get a better understanding of what we do and how we collaborate, here are a select few from our members.</p>
+    <div class='other-projects'>
+        {% for post in site.categories.['project'] %}
+        {% if post.tags contains "previous" %}
+        <article class='previous-project grid_18'>
+            <h3>{{ post.title }}</h3>
+            <div  class='author'>{{ post.author }}</div>
+            <img class="previous" src="{{ post.image_url }}" />
+            <p>{{ post.content }}</p>
+            {% if post.url and post.url != "" %}
+            &raquo; <a href="{{ post.project_url }}">Project page</a>
+            {% endif %}
+        </article>
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>

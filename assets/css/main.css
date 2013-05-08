@@ -1,0 +1,623 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+html,
+button,
+input,
+select,
+textarea {
+  color: #222;
+}
+
+body {
+  font: 16px/18px "liberation_mono";
+  color: #434343;
+}
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/*==============================================
+ * Grid
+ * ============================================*/
+.wrapper {
+  max-width: 900px;
+  width: 100%;
+  float: left;
+}
+
+/*==============================================
+ * Fonts
+ * ============================================*/
+@font-face {
+  font-family: 'liberation_mono';
+  src: url("../fonts/liberationmono-regular-webfont.eot");
+  src: url("../fonts/liberationmono-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/liberationmono-regular-webfont.woff") format("woff"), url("../fonts/liberationmono-regular-webfont.ttf") format("truetype"), url("../fonts/liberationmono-regular-webfont.svg#liberation_monoregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'liberation_mono';
+  src: url("../fonts/liberationmono-bold-webfont.eot");
+  src: url("../fonts/liberationmono-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/liberationmono-bold-webfont.woff") format("woff"), url("../fonts/liberationmono-bold-webfont.ttf") format("truetype"), url("../fonts/liberationmono-bold-webfont.svg#liberation_monobold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'liberation_mono_bold';
+  src: url("../fonts/liberationmono-bold-webfont.eot");
+  src: url("../fonts/liberationmono-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/liberationmono-bold-webfont.woff") format("woff"), url("../fonts/liberationmono-bold-webfont.ttf") format("truetype"), url("../fonts/liberationmono-bold-webfont.svg#liberation_monobold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*==============================================
+ * Generic styles
+ * ============================================*/
+p, a {
+  font-size: 0.75em;
+  /* 12px */
+  line-height: 1.5em;
+  /* 18px */
+  margin-top: 1.5em;
+  margin-bottom: 0em;
+}
+
+p a {
+  font-size: inherit;
+}
+
+ul {
+  padding: 0;
+}
+
+h1 {
+  font-size: 1em;
+  /* 16px */
+  line-height: 1.125em;
+  /* 18px */
+  margin-top: 1.125em;
+  margin-bottom: 0em;
+}
+
+h1 a {
+  line-height: 1.2857em;
+  /* 18px */
+  font-size: 0.875em;
+  /* 14px */
+  margin-top: 1.2857em;
+  margin-bottom: 0em;
+}
+
+h2 {
+  font-size: 1.25em;
+  /* 20px */
+  line-height: 1.8em;
+  /* 36px */
+  margin-top: 0.9em;
+  margin-bottom: 0em;
+}
+
+h3 {
+  font-size: 1em;
+  /* 16px */
+  line-height: 1.125em;
+  /* 18px */
+  margin-top: 1.125em;
+  margin-bottom: 0em;
+}
+
+h4 {
+  font-size: 0.875em;
+  /* 14px */
+  line-height: 1.2857em;
+  /* 18px */
+  margin-top: 1.2857em;
+  margin-bottom: 0em;
+}
+
+.content img {
+  margin-top: 1em;
+}
+
+/*==============================================
+ * Custom typography
+ * ============================================*/
+h1 {
+  color: #555;
+}
+
+h1 span {
+  display: block;
+  text-align: center;
+}
+
+h1 span.last {
+  margin-bottom: 1.2857em;
+}
+
+h1 a, h1 a:link, h1 a:visited {
+  text-decoration: none;
+  color: #858585;
+}
+
+h2, h3, h4, h5 {
+  font-weight: normal;
+}
+
+small {
+  font-size: 0.625em;
+  /* 10px */
+  line-height: 1.8em;
+  /* 18px */
+  margin-top: 1.8em;
+  margin-bottom: 0em;
+}
+
+.date {
+  font-size: 0.625em;
+  /* 10px */
+  line-height: 1.8em;
+  /* 18px */
+  margin-bottom: 1.8em;
+  margin-top: 0em;
+}
+
+/*==============================================
+ * Navigation
+ * ============================================*/
+.osa a:hover, .home .osa a {
+  color: #434343;
+}
+
+.nav-global li {
+  display: inline-block;
+}
+
+.nav-global li span {
+  position: absolute;
+  left: -10%;
+  font-size: 2em;
+  display: none;
+}
+
+.nav-global li a {
+  text-decoration: none;
+  color: #858585;
+  font-size: 0.875em;
+  /* 14px */
+  line-height: 1.2857em;
+  /* 18px */
+  margin-top: 1.2857em;
+  margin-bottom: 0em;
+}
+
+.nav-global li a:hover,
+.nav-global li.active a {
+  color: #434343;
+}
+
+/*
+.home .osa a:hover,
+.home .nav-global li a {
+    color: #434343;
+}
+.home .nav-global li a:hover {
+    color: #858585;
+}
+*/
+.csstransitions .osa a, .csstransitions .nav-global li a {
+  -webkit-transition: color 400ms ease-out;
+  -moz-transition: color 400ms ease-out;
+  -ms-transition: color 400ms ease-out;
+  -o-transition: color 400ms ease-out;
+  transition: color 400ms ease-out;
+}
+
+.nav-global ul {
+  font-size: 1em;
+  /* 16px */
+  line-height: 1.125em;
+  /* 18px */
+  margin-top: 1.125em;
+  margin-bottom: 0em;
+}
+
+/*==============================================
+ * Homepage bg image
+ * ============================================*/
+.fullbg {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.fullbg-cover {
+  z-index: 10;
+  background: white;
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+  /* IE 5-7 */
+  filter: alpha(opacity=40);
+  /* Netscape */
+  -moz-opacity: 0.4;
+  /* Safari 1.x */
+  -khtml-opacity: 0.4;
+  /* Good browsers */
+  opacity: 0.4;
+}
+
+.fullbg img {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+  /* Set up positioning */
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  /* Specific to this particular image */
+  .fullbg img {
+    left: 50%;
+    margin-left: -512px;
+    /* 50% */
+  }
+}
+/*==============================================
+ * Main Content - Projects/Events/About
+ * ============================================*/
+a.project {
+  display: block;
+  text-decoration: none;
+  font-size: 0.875em;
+  /* 14px */
+  line-height: 1.2857em;
+  /* 18px */
+  margin-top: 1.2857em;
+  margin-bottom: 0em;
+}
+
+a.project:hover {
+  text-decoration: underline;
+}
+
+.wrapper .current-project {
+  padding-bottom: 1.0625em;
+  border-bottom: 1px dashed #434343;
+}
+
+.wrapper .current-project iframe {
+  margin-top: 1em;
+  width: 100%;
+  height: 383px;
+}
+
+.wrapper .previous-project:nth-child(even) {
+  margin: 0;
+}
+
+.wrapper .previous-project {
+  margin: 0 2% 0 0;
+  width: 100%;
+}
+
+.previous-project .description {
+  min-height: 162px;
+}
+
+.previous-project .author {
+  font-size: 0.75em;
+  /* 12px */
+  line-height: 1.5em;
+  /* 18px */
+  margin-bottom: 0em;
+}
+
+.content img.current {
+  max-width: 682px;
+  min-width: 300px;
+  width: 100%;
+}
+
+.content img.previous {
+  width: 100%;
+}
+
+.event-news {
+  border-top: 1px dashed #555555;
+  padding-bottom: 1.125em;
+}
+
+.members {
+  list-style: none;
+}
+
+.members > * {
+  font-size: 0.75em;
+  /* 12px */
+  line-height: 1.5em;
+  /* 18px */
+}
+
+.members > * a {
+  font-size: inherit;
+}
+
+/*==============================================
+ * Footer
+ * ============================================*/
+.wrapper .content {
+  border-bottom: 1px dashed;
+  padding-bottom: 18px;
+}
+
+footer {
+  width: 100%;
+  height: 18px;
+  position: relative;
+  z-index: 3;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+.ie7 .title {
+  padding-top: 20px;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media only screen and (min-width: 480px) {
+  .wrapper .previous-project {
+    width: 49%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* ====================
+       WIDE: CSS3 Effects
+     ==================== */
+  .header-container,
+  .main aside {
+    -webkit-box-shadow: 0 5px 10px #aaaaaa;
+    -moz-box-shadow: 0 5px 10px #aaaaaa;
+    box-shadow: 0 5px 10px #aaaaaa;
+  }
+
+  /* ============
+      WIDE: Menu
+     ============ */
+  .nav-global ul {
+    text-align: left;
+    margin-left: 15%;
+  }
+
+  .nav-global li {
+    display: block;
+  }
+
+  .nav-global li:nth-child(1) {
+    padding-top: 27px;
+  }
+
+  .nav-global li:nth-child(2) {
+    padding-top: 99px;
+  }
+
+  .nav-global li:nth-child(3) {
+    padding-top: 144px;
+  }
+
+  .nav-global li a:before {
+    content: '~';
+    position: absolute;
+    font-size: 2em;
+    left: -10px;
+  }
+
+  /*
+  .nav-global li.active a:before {
+      margin-left: 10px;
+  }
+  .nav-global li.active a:before {
+      left: 0px;
+      right: -10px;
+  }
+  */
+  /* ============
+      WIDE: Main
+     ============ */
+  .wrapper .nav-global {
+    width: 14.667%;
+    /* grid_3 */
+  }
+
+  .wrapper .content {
+    width: 75.778%;
+    /* grid_14 */
+  }
+}
+@media only screen and (min-width: 1140px) {
+  /* ===============
+      Maximal Width
+     =============== */
+}
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px;
+}
+
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 100%;
+}
+
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+@media print {
+  * {
+    background: transparent !important;
+    color: black !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links for images, or javascript/internal links
+   */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999999;
+    page-break-inside: avoid;
+  }
+
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
