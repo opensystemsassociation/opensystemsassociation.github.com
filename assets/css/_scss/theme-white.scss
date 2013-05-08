@@ -1,0 +1,66 @@
+$coverColour:#000000; 
+$opacity: 0.7;
+$clrBody: #EEE9E9;
+$clrLink: #ACA1A1;
+$clrLinkOver: #FFFFFF;
+$clrNavLink: #858585;
+$clrNavLinkOver: #EEE9E9;
+body {
+    color: $clrBody;
+}
+
+a {
+    color: $clrLink;
+    text-decoration: none;
+}
+
+a:hover {
+    color: $clrLinkOver;
+    text-decoration: underline;
+}
+
+h2,h3,h4{ 
+    font-family: 'liberation_mono';
+}
+
+.wrapper .content {
+    border-bottom-color: $clrNavLink;
+}
+
+.wrapper .current-project {
+    border-bottom-color: $clrNavLink;
+}
+
+.event-news {
+    border-top-color: $clrNavLink;
+}
+.members a {
+    // color: $clrLinkOver;
+}
+
+.fullbg-cover {
+    background: $coverColour;
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity="+$opacity*100+")";
+    /* IE 5-7 */
+    filter: alpha(opacity=$opacity*100);
+    /* Netscape */
+    -moz-opacity: $opacity;
+    /* Safari 1.x */
+    -khtml-opacity: $opacity;
+    /* Good browsers */
+    opacity: $opacity;
+}
+
+.nav-global li a {
+    color: $clrNavLink;
+}
+
+.nav-global li a:hover,
+.nav-global li.active a {
+    color: $clrNavLinkOver;
+}
+
+.osa a:hover, .home .osa a {
+    color: $clrNavLinkOver;
+}
