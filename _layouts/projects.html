@@ -12,7 +12,7 @@ layout: default
             <h3>{{ post.title }}</h3>
             <div class="date">{{ post.date | date: "%B %Y" }}</div>
             {% if post.vimeo_id and post.vimeo_id != "" %}
-            <iframe src="http://player.vimeo.com/video/{{ post.vimeo_id }}"  frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> 
+            <iframe class="vimeo" src="http://player.vimeo.com/video/{{ post.vimeo_id }}"  frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> 
             {% endif %}
             <p>{{ post.content | strip_html | truncatewords:50 }}</p>
             <a class="more clearfix" href="{{ post.url }}">Read more &raquo;</a>
