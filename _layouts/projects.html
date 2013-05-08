@@ -15,7 +15,7 @@ layout: default
             <iframe src="http://player.vimeo.com/video/{{ post.vimeo_id }}"  frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> 
             {% endif %}
             <p>{{ post.content | strip_html | truncatewords:50 }}</p>
-            &raquo; <a href="{{ post.url }}">Read more</a>
+            <a class="more clearfix" href="{{ post.url }}">Read more &raquo;</a>
         </article>
         {% endif %}
         {% endfor %}
@@ -30,7 +30,7 @@ layout: default
             <div  class='author'>{{ post.author }}</div>
             <img class="previous" src="{{ post.image_url }}" />
             <p>{{ post.content }}</p>
-            {% if post.url and post.url != "" %}
+            {% if post.project_url and post.project_url != "" %}
             &raquo; <a href="{{ post.project_url }}">Project page</a>
             {% endif %}
         </article>

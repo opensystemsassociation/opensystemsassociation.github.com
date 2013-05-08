@@ -8,8 +8,8 @@ title: Your New Jekyll Site
     <article class='event-news'>
     <h4>{{ post.title }}</h4>
     <div class="date">{{ post.date | date: "%a %b %d %Y" }}</div>
-    <p>{{ post.content | strip_html | truncatewords:50 }}</p>
-     &raquo; <a href="{{ post.url }}">more</a></li>
+    <p>{{ post.content | truncatewords:50 }}</p>
+    <a class="more" href="{{ post.url }}">Read more &raquo;</a>
      </article>
     {% endfor %}
 </div>
