@@ -22,7 +22,7 @@ layout: default
     </div>
     <h2>Projects by OSA members</h2>
     <p>Members of the Open Systems Association have worked on a wide variety of projects in the past. To get a better understanding of what we do and how we collaborate, here are a select few from our members.</p>
-    <div class='other-projects'>
+    <div class='other-projects clearfix'>
         {% for post in site.categories.['project'] %}
         {% if post.tags contains "previous" %}
         <article class='previous-project grid_18'>

@@ -1,1 +1,1 @@
-scss --watch _scss
+scss --watch _scss:../css/
