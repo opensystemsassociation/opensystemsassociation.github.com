@@ -8,4 +8,4 @@ categories: [project]
 tags: [previous]
 ---
 
-*Absurd Machinations* takes the joke outside of its apparent home in language and employs it with heart rate monitors, genetic algorithms and clockwork mechanisms to create crisis-ridden games with the potential to generate new diagrams of politics, performance and play.
+Absurd Machinations takes the joke outside of its apparent home in language and employs it with heart rate monitors, genetic algorithms and clockwork mechanisms to create crisis-ridden games with the potential to generate new diagrams of politics, performance and play.
