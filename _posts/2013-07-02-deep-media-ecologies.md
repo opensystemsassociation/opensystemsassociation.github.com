@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Deep Media Ecologies"
-image_url: "/content/projects/deepmedia.jpg"
+image_url: "/content/projects/deep-media.jpg"
 author: "Olga Panadés Massanet and Vincent Van Uffelen"
 date:   2013-07-02
 categories: [project]
