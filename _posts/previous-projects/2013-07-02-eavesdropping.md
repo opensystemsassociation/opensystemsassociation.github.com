@@ -2,7 +2,7 @@
 layout: post
 title:  "Eavesdropping"
 image_url: "/content/projects/renee-eavesdropping.jpg"
-author: "Renee Carmichael"
+author: "Renee Carmichael and Ana Palma Silva"
 date:   2013-07-02
 categories: [project]
 tags: [previous]
