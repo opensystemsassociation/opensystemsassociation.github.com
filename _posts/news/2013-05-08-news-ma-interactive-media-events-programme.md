@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "OSA contributing to Evil Media Distribution Centre at Transmediale 2013"
-date:   2013-05-08 12:00:00
+date:   2013-01-30 12:00:00
 categories: [events-news]
 tags: [event]
 ---
