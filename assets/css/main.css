@@ -9,7 +9,7 @@ textarea {
   color: #222; }
 
 body {
-  font: 16px/18px "liberation_mono";
+  font: 16px/18px 'liberation_mono';
   color: #434343; }
 
 ::-moz-selection {
@@ -24,7 +24,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #cccccc;
+  border-top: 1px solid #ccc;
   margin: 1em 0;
   padding: 0; }
 
@@ -329,7 +329,7 @@ a.project:hover {
   width: 100%; }
 
 .event-news {
-  border-top: 1px dashed #555555;
+  border-top: 1px dashed #555;
   padding-bottom: 1.125em; }
 
 .members {
@@ -344,6 +344,28 @@ a.project:hover {
 .members > * a {
   font-size: inherit; }
 
+/*==============================================
+ * Project gallery
+ * ============================================*/
+.gallery__item img {
+  margin-top: 0;
+  width: 100%;
+  float: left; }
+
+.gallery__item img:first-child {
+  margin-top: 1em; }
+
+.gallery__item p {
+  background: white;
+  background: rgba(255, 255, 255, 0.1);
+  clear: both;
+  padding: 5px; }
+
+@media only screen and (min-width: 480px) {
+  .gallery__item img {
+    margin-top: 1em;
+    width: 50%;
+    float: left; } }
 /*==============================================
  * Footer
  * ============================================*/
@@ -378,9 +400,9 @@ footer {
      ==================== */
   .header-container,
   .main aside {
-    -webkit-box-shadow: 0 5px 10px #aaaaaa;
-    -moz-box-shadow: 0 5px 10px #aaaaaa;
-    box-shadow: 0 5px 10px #aaaaaa; }
+    -webkit-box-shadow: 0 5px 10px #aaa;
+    -moz-box-shadow: 0 5px 10px #aaa;
+    box-shadow: 0 5px 10px #aaa; }
 
   /* ============
       WIDE: Menu
@@ -488,7 +510,7 @@ footer {
 @media print {
   * {
     background: transparent !important;
-    color: black !important;
+    color: #000 !important;
     /* Black prints faster: h5bp.com/s */
     box-shadow: none !important;
     text-shadow: none !important; }
@@ -513,7 +535,7 @@ footer {
 
   pre,
   blockquote {
-    border: 1px solid #999999;
+    border: 1px solid #999;
     page-break-inside: avoid; }
 
   thead {

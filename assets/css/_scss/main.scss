@@ -378,6 +378,41 @@ a.project:hover {
 }
 
 /*==============================================
+ * Project gallery
+ * ============================================*/
+
+.gallery {
+
+}
+
+.gallery__item {
+
+}
+
+.gallery__item img{
+    margin-top: 0;
+    width: 100%;
+    float: left;
+}
+.gallery__item img:first-child {
+    margin-top: 1em;
+}
+
+.gallery__item p{
+    background: rgb(255, 255, 255); 
+    background: rgba(255, 255, 255, 0.1); 
+    clear: both;
+    padding: 5px;
+}
+
+@media only screen and (min-width: 480px) {
+    .gallery__item img{
+        margin-top: 1em;
+        width: 50%;
+        float: left;
+    }
+}
+/*==============================================
  * Footer
  * ============================================*/
 .wrapper .content {
