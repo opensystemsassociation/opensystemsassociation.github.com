@@ -3,7 +3,7 @@ layout: post
 title:  "Everything But the Kitchen"
 date:   2013-06-21 
 image:  "/content/harts-lane-reduced.jpg"
-categories: [project]
+categories: [project-]
 tags: [current]
 ---
 
