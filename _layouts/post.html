@@ -4,7 +4,7 @@ layout: default
 
 <div class="content grid_17">
 <h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<p class="date">{{ page.date | date_to_string }}</p>
     {% if page.vimeo_id and page.vimeo_id != "" %}
     <iframe class="vimeo" src="http://player.vimeo.com/video/{{ page.vimeo_id }}"  frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> 
     {% endif %}

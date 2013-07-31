@@ -171,7 +171,6 @@ small {
   /* 10px */
   line-height: 1.8em;
   /* 18px */
-  margin-bottom: 1.8em;
   margin-top: 0em; }
 
 .more {
@@ -297,6 +296,9 @@ a.project:hover {
 .wrapper .current-project {
   padding-bottom: 1.0625em;
   border-bottom: 1px dashed #434343; }
+
+.current-project__image {
+  max-width: 100%; }
 
 .vimeo {
   margin-top: 1em;

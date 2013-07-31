@@ -3,18 +3,27 @@ layout: default
 ---
 
 <div class="content grid_17">
-    <h2>Recent/Current Projects</h2>
     <p>Current projects are examples of work by the OSA that are in progress or recently completed. Some of the work may be part of a series or ongoing work with indeterminate length.</p>
     <div class='current-projects'>
         {% for post in site.categories.['project'] %}
         {% if post.tags contains "current" %}
         <article class='current-project'>
-            <h3>{{ post.title }}</h3>
+            <h2>{{ post.title }}</h2>
             <div class="date">{{ post.date | date: "%B %Y" }}</div>
+            {% if post.image and post.image != "" %}
+            <a href="{{ post.url }}">
+                <img class="current-project__image" src="{{ post.image }}" />
+            </a>
+            {% endif %}
             {% if post.vimeo_id and post.vimeo_id != "" %}
             <iframe class="vimeo" src="http://player.vimeo.com/video/{{ post.vimeo_id }}"  frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> 
             {% endif %}
+
+            {% if post.teaser and post.teaser != "" %}
+            <p>{{ post.teaser }}</p>
+            {% else %}
             <p>{{ post.content | strip_html | truncatewords:50 }}</p>
+            {% endif %}
             <a class="more clearfix" href="{{ post.url }}">Read more &raquo;</a>
         </article>
         {% endif %}

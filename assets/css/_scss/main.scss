@@ -196,7 +196,7 @@ small {
 .date {
     font-size: 0.625em; /* 10px */
     line-height: 1.8em; /* 18px */
-    margin-bottom: 1.8em;
+    // margin-bottom: 1.8em;
     margin-top: 0em;
 }
 
@@ -325,6 +325,10 @@ a.project:hover {
 .wrapper .current-project {
     padding-bottom: 1.0625em;
     border-bottom: 1px dashed #434343;
+}
+
+.current-project__image {
+    max-width: 100%;
 }
 
 .vimeo {
