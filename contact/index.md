@@ -10,7 +10,7 @@ If you would like to find out more about the approach of the Open Systems Associ
 
 <ul class='members'>
     <li>Cliff Hammett</li>
-    <li>Alexandra Joensson</li>
+    <li><a href="http://www.motheringamplified.com">Alexandra Jönsson &raquo;</a></li>
     <li>Anila Ladwa</li>
     <li><a href="http://www.annablumenkranz.de">Anna Blumenkranz &raquo;</a></li>
     <li><a href="http://www.theanthillsocial.co.uk">Tom Keene &raquo;</a></li>
