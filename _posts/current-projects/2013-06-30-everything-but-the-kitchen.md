@@ -18,7 +18,6 @@ but we can make it something different. Could we carry with it the wetness, warm
 Here it becomes possible to explore unseen energies, unrecognised practices and unpaid forms of physical, emotional and material labour which fall outside normative notions of time. As a site of technical, physical and cultural experimentation, experiences of time and labour in relation to each investigation are charted together with visitors and practitioners. This serves as a map of the knowledge created and uncovered during many hours of embodied speculation, as
 members of OSA prod and poke at the powers underlying post-digital drudgery, sociable seasons and cruel technologies.
 
-
 <div class="gallery">
     <div class="gallery__item">
         <img src="/content/projects/ebtk/400xn/renee01.jpg" />
@@ -56,6 +55,8 @@ members of OSA prod and poke at the powers underlying post-digital drudgery, soc
         <p>The Ghost in the Kitchen - An Ensemble of Objects</p>
     </div>
 </div>
+
+(photos by Anna Kartasi)
 
 Kitchen Components
 ------------------
