@@ -9,7 +9,7 @@ The Open Systems Association works mainly through collaboration, both between it
 If you would like to find out more about the approach of the Open Systems Association or have something you’d like to discuss, please email us at [info@opensystem.org.uk](mailto:info@opensystem.org.uk) and we’ll be happy to have a chat.
 
 <ul class='members'>
-    <li>Cliff Hammett</li>
+    <li><a href="http://www.cliffhammett.com">Cliff Hammett &raquo;</a></li>
     <li><a href="http://www.motheringamplified.com">Alexandra Jönsson &raquo;</a></li>
     <li>Anila Ladwa</li>
     <li><a href="http://www.annablumenkranz.de">Anna Blumenkranz &raquo;</a></li>
