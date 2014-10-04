@@ -354,10 +354,9 @@ a.project:hover {
     margin-bottom: 0em;
 }
 
-.content img.current {
-    max-width: 682px;
-    min-width: 300px;
-    width:100%;
+.content img {
+    max-width:100%;
+    height: auto;
 }
 
 .content img.previous {
