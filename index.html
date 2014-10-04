@@ -3,11 +3,11 @@ layout: default
 title: Home
 ---
 <div class="content grid_17">
-    <h2>News &amp; Events</h2>
+    <h2>Latest</h2>
     {% for post in site.categories.['events-news'] %}
     <article class='event-news'>
     <h4>{{ post.title }}</h4>
-    <div class="date">{{ post.tags | first | upcase }} // {{ post.date | date: "%a %b %d %Y" }}</div>
+    <div class="date">{{ post.post_author }} // {{ post.date | date: "%a %b %d %Y" }}</div>
     <p>{{ post.content | truncatewords:50 }}</p>
     <a class="more" href="{{ post.url }}">Read more &raquo;</a>
      </article>

@@ -2,7 +2,7 @@
 layout: post
 title:  "Everything But the Kitchen"
 date:   2013-06-21 
-image:  "/content/harts-lane-reduced.jpg"
+image:  "/content/projects/harts-lane.jpg"
 categories: [project]
 tags: [current]
 ---
@@ -10,7 +10,7 @@ tags: [current]
 *Everything but the Kitchen* is a cultural lab articulated as a radical kitchen space. Seven units house critical experiments where members of the public can plug into bodies and their processes, approaching critical thinking and technological tinkering from the perspective of physical engagement. How does our understanding of feedback systems shift once our nipples are connected through suction to another body? How does time materialise in a physical database of chopped,
 organised and washed vegetables? How can we re-politicise domestic media by grinding corn kernels?
 
-<img src="/content/harts-lane-reduced.jpg" />
+<img src="/content/projects/harts-lane-reduced.jpg" />
 
 Cultural and technological practices of skin bleaching, lactation, chopping, sandblasting, algorithmic knowledge production and eating are deployed as entry points of physical learning. *Everything but the Kitchen* investigates how post-digital time articulated in the relationships between material processes, how this is felt in different bodies and how this physical knowledge speaks. Engineered, commodified and consumed, kitchen time becomes labour time sold as leisure,
 but we can make it something different. Could we carry with it the wetness, warmth and sheer burning alkalinity of the substances, practices and forces we find within its walls and streaming through its windows.

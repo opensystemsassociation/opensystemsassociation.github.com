@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Rebooting Computing"
-vimeo_id: "49274310"
 date:   2012-11-08 
+image:  "/content/projects/rebooting-computing.jpg"
+vimeo_id: "49274310"
 categories: [project]
 tags: [current]
 ---

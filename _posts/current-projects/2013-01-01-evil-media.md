@@ -2,6 +2,7 @@
 layout: post
 title:  "Evil Media Distribution Centre"
 date:   2013-05-08 12:00:00
+image:  "/content/projects/evil-media-02.jpg"
 categories: [project]
 tags: [current]
 ---
