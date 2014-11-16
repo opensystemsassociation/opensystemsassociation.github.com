@@ -7,7 +7,7 @@ tags: [news]
 ---
 
 
-On Tuesday 7th October at a café in London, members of OSA convened 'This is a Distraction' - an open and informal discussion event. It initiated a new phase of collaborative research and engagement around distraction, technologies, attention and health. The event structured itself around four short talks given by those attending, with all joining in the discussion. Brief notes on each of the talks are below:
+On Wednesday 8th October at a café in London, members of OSA convened 'This is a Distraction' - an open and informal discussion event. It initiated a new phase of collaborative research and engagement around distraction, technologies, attention and health. The event structured itself around four short talks given by those attending, with all joining in the discussion. Brief notes on each of the talks are below:
 
 ![This is a distraction event](/assets/content/events/distraction_camp_pic.jpg)
 
