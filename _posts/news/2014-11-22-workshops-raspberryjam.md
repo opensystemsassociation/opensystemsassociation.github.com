@@ -6,7 +6,7 @@ categories: [events-news]
 tags: [event]
 ---
 
-On Saturday 22nd November, Southend on Sea Linux Users Group(SoSLUG) will be hosting their [fourth Raspberry Jam event](http://www.eventbrite.com/e/southend-raspberry-jam-4-tickets-13564528871?aff=efbevent) at the Tickfield Centre in Southend, which combines practical workshops on Raspberry Pis and other platform with a host of interesting talks on different aspects of computing practices.
+On Saturday 22nd November, Southend on Sea Linux Users Group(SoSLUG) will be hosting their [fourth Raspberry Jam event](http://www.eventbrite.com/e/southend-raspberry-jam-4-tickets-13564528871?aff=efbevent) at the Tickfield Centre in Southend. This will combine practical workshops on Raspberry Pis and other platform with a host of interesting talks on different aspects of computing practices.
 
 OSA members Ji Hu and Verena Herman will be running the following workshop:
 
